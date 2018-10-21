@@ -27,7 +27,7 @@ Buying the $7 plan will enable certain features that are not included in the $0 
 Congrats! Now you made a github account. Now you last step is to set up your SSH Key.  
 
 After you have created your account and chosen your plan, you will be redirected to your github settings. Your screen will look like this  
-![Screen](https://drive.google.com/file/d/1dggo6duVJJHeYHqXQxxEWGNsyRLDpCzm/view?usp=sharing)
+![Screen](https://drive.google.com/file/d/1ZIMiBR150AAhiOEV655imFHo4lU8JoWv/view?usp=sharing)
 
   
 
