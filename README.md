@@ -22,7 +22,13 @@ Making a Github account is the most crucial step in this tutorial. Without Githu
 3. Now your are in slide 2 (Step 2). This slide asks you if you want to include a monthly personal plan to your Github account. There are 2 options:
 * $0 Personal Plan
 * $7 Personal Plan  
-Buying the $7 plan will enable certain features that are not included in the $0 personal plan. In the $0 dollar plan you are have a limited amount of privileges
+Buying the $7 plan will enable certain features that are not included in the $0 personal plan. In the $0 dollar plan you are have a limited amount of privileges  
+
+Congrats! Now you made a github account. Now you last step is to set up your SSH Key.  
+
+After you have created your account and chosen your plan, you will be redirected to your github settings. Your screen will look like this  
+![Screen](https://drive.google.com/file/d/1dggo6duVJJHeYHqXQxxEWGNsyRLDpCzm/view?usp=sharing)
+
   
 
 
