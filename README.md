@@ -26,8 +26,14 @@ Buying the $7 plan will enable certain features that are not included in the $0 
 
 Congrats! Now you made a github account. Now you last step is to set up your SSH Key.  
 
-After you have created your account and chosen your plan, you will be redirected to your github settings. Your screen will look like this  
-![Screen](https://drive.google.com/file/d/1ZIMiBR150AAhiOEV655imFHo4lU8JoWv/view?usp=sharing)
+After you have created your account and chosen your plan, you will be redirected to your github settings. you will be on your "Emails" settings tab.  
+3 tabs below the settings tab is the **SSH and GPG Keys Tab**. Click on that tab. This will ask you to set up an SSH Key or GPG Key. Here is how you create an SSH Key:
+1. Press the Green "New SSH Key Button"(You need to set up an SSH Key so that every time you want to push to github your wont have to sign in).
+2. After you've done this, go to cloud9, press the gear icon on the top right, go to the "SSH Keys" tab and copy the 2nd SSH Key.
+3. Go back to Github and paste the SSH Key into the text box that opened up after you did step 1. 
+4. Add the SSH Key  
+
+Now your account has an SSH Key between Github and CLoud9, you won't need to sign in to Github every time you push changes to the remote repo!
 
   
 
@@ -35,8 +41,16 @@ After you have created your account and chosen your plan, you will be redirected
 
 ---
 ## Repository Setup
-
-
+**How to make a repository**
+1. Go to Github and the on the top right corner next to your profile picture/logo, press the `+` symbol and press "New Repository". Name the repository anything anything you want. But type the exact name of the repository when referencing. 
+2. Create the repository. You will be redirected to a page that looks like this  
+![Page](Redirect.png)
+3. Make sure you are on the SSH tab that is displayed at the top, copy and paste the 2 lines of code on the "***...or push an existing repository from the command line***" section. Copy/Paste 1 line of code at a time onto your terminal. 
+4. Type `git remote -v` onto your terminal and press enter. 
+5. On your cloud9 workspace, open a new terminal
+6. Type the command `mkdir` to make a new directory, type the name you want to give the directory after the command `mkdir`. For example, `mkdir broklyn`.
+7. After that, type `cd` to start doing work _inside_ that new directory you made. **IF** you dont type this command, you will be doing work _outside_ of that directory. We need to avoid that since we are working _with_ the directory. For example `cd broklyn`.
+8. Type `Git init`. This command will initilize your git repository. 
 
 ---
 ## Workflow & Commands
