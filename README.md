@@ -42,11 +42,11 @@ Now your account has an SSH Key between Github and CLoud9, you won't need to sig
 ---
 ## Repository Setup
 **How to make a repository**
-1. Go to Github and the on the top right corner next to your profile picture/logo, press the `+` symbol and press "New Repository". Name the repository anything anything you want. But type the exact name of the repository when referencing. 
+1. Go to Github and the on the top right corner next to your profile picture/logo, press the `+` symbol and press "New Repository". Name the repository the exact name of your repository on the local. But type the exact name of the repository when referencing. 
 2. Create the repository. You will be redirected to a page that looks like this  
 ![Page](Redirect.png)
 3. Make sure you are on the SSH tab that is displayed at the top, copy and paste the 2 lines of code on the "***...or push an existing repository from the command line***" section. Copy/Paste 1 line of code at a time onto your terminal. 
-4. Type `git remote -v` onto your terminal and press enter. 
+4. Type `git remote -v` into your terminal and press enter. This will show if you have made the connection succesfully.  
 5. On your cloud9 workspace, open a new terminal
 6. Type the command `mkdir` to make a new directory, type the name you want to give the directory after the command `mkdir`. For example, `mkdir broklyn`.
 7. After that, type `cd` to start doing work _inside_ that new directory you made. **IF** you dont type this command, you will be doing work _outside_ of that directory. We need to avoid that since we are working _with_ the directory. For example `cd broklyn`.
