@@ -59,9 +59,17 @@ Now your account has an SSH Key between Github and CLoud9, you won't need to sig
 ---
 ## Workflow & Commands
 1. Use `git status` to check wether your changes are added to the stage. If they arent added to the stage, this will show up on your screen.  
-![Red](project-code.png)
-3. When you are ready to push the following changesto your backup/remote repository on github, used `git push -u orgin master`. It will send your changes to github. After you used this command, next time you push, just ytpe `git push`.
+![Red](project-code.png)  
+if this is green, it means that the directory is added to the stage and is ready to commit. 
+2. Use `git commit -m` with a message inside quotation marks to make a commit. For example: `git commit -m"adds words"` When you commmit, you have published your final edits. 
+3. When you are ready to push the following changes to your backup/remote repository on github, used `git push -u orgin master`. It will send your changes to github. After you used this command, next time you push, just ytpe `git push`.
 
 
 ---
 ## Rolling Back Changes
+Lets say you make a mistake on your directory but you **committed**. Death... right? Not exactly. Here is a few a few lines of code you can use to edit your commits.  
+`git reset --soft HEAD~1` to uncommit your changes. You will be back to where you were after you did `git add .` Your work will be in the staging area.
+Once you are back in the staging area, you can use `git reset HEAD filename` to unstage changes.  
+Lets say you dont want to type so many things or want to uncommit and unstage with 1 code instead of using 2 codes. Just use `git reset HEAD~1`. 
+
+Lets say you want to undo everything and erase your changes. just use `git reset --hard HEAD~1`
