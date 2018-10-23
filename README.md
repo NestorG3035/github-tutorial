@@ -51,10 +51,16 @@ Now your account has an SSH Key between Github and CLoud9, you won't need to sig
 6. Type the command `mkdir` to make a new directory, type the name you want to give the directory after the command `mkdir`. For example, `mkdir broklyn`.
 7. After that, type `cd` to start doing work _inside_ that new directory you made. **IF** you dont type this command, you will be doing work _outside_ of that directory. We need to avoid that since we are working _with_ the directory. For example `cd broklyn`.
 8. Type `Git init`. This command will initilize your git repository. 
+9. Make some changes inside your directory for example: make a a file and add some text into it.
+10. Use the `git add .` to add those changes onto the stage. If you dont use `git add .` to add the changes to the stage, you wont be able to commit any changes. 
+11. Next, use `git commit -m` and add a message after that block of code that describes what you did in that commit. for example, `git comit -m"adds text"`.
+
 
 ---
 ## Workflow & Commands
-
+1. Use `git status` to check wether your changes are added to the stage. If they arent added to the stage, this will show up on your screen.
+![Red Code](Project Code.PNG)
+3. When you are ready to push the following changesto your backup/remote repository on github, used `git push -u orgin master`. It will send your changes to github. After you used this command, next time you push, just ytpe `git push`.
 
 
 ---
