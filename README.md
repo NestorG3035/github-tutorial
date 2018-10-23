@@ -58,8 +58,8 @@ Now your account has an SSH Key between Github and CLoud9, you won't need to sig
 
 ---
 ## Workflow & Commands
-1. Use `git status` to check wether your changes are added to the stage. If they arent added to the stage, this will show up on your screen.
-![Red Code](Project Code.PNG)
+1. Use `git status` to check wether your changes are added to the stage. If they arent added to the stage, this will show up on your screen.  
+![Red](project-code.png)
 3. When you are ready to push the following changesto your backup/remote repository on github, used `git push -u orgin master`. It will send your changes to github. After you used this command, next time you push, just ytpe `git push`.
 
 
